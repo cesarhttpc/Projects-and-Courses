@@ -1,0 +1,291 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Data Science IBM Notes}
+\author{César García}
+
+\begin{document}
+\maketitle
+
+% \begin{abstract}
+% Your abstract.
+% \end{abstract}
+
+\section{Categorices Tools}
+
+
+\begin{enumerate}
+      \item Data Management: Collection
+      \item Data integration and transformation
+      Extract, transform and Load (ETL)
+      \item Data visualization:
+      \item Model Building
+      \item Model deployment
+      \item Model Monitoring and Assessment
+\end{enumerate}
+
+
+\section{Tools}
+
+\textbf{Data Managment}
+
+Relational Data bases
+\begin{enumerate}
+      \item MySQL
+      \item ProsgreSQL
+\end{enumerate}
+No Relational Data bases
+\begin{enumerate}
+      \item MongoDB (NoSQL stores data in JSON) 
+      \item Apache Couch MongoDB
+      \item Apache Cassandra
+      \item Hadoops HDFS
+      \item Ceph
+\end{enumerate}
+
+\textbf{Data integration and transformation}
+
+\begin{enumerate}
+      \item Apache Ariflow (Arib\&b)
+      \item Kafka
+      \item Jubeflow
+      \item Squrk MySQL
+      \item Note-RED (low in resource consumption)
+\end{enumerate}
+
+\textbf{Data visualization}
+
+\begin{enumerate}
+      \item PixieDust
+      \item Hue
+      \item Kibana
+      \item Superset          
+\end{enumerate}
+
+\textbf{Model deployment}
+
+\begin{enumerate}
+      \item PredictionIO
+      \item Seldon
+      \item mleap
+      \item TensorFlowServing (embeding devices, like RasperryPi)
+\end{enumerate}
+
+
+\textbf{ Model monitoring and Assestment}
+
+\begin{enumerate} 
+    \item ModelDB (supports apacha sparks and Skilearn)
+    \item Prometheus
+    \item IBM IA Fariness 360 (bias in machine learning models)
+    \item IBM Adeverarial robutsness 360 Toolbox
+    \item IBM AI explainbaility 360  
+\end{enumerate} 
+
+\textbf{ Code asset Managment}
+
+Also known as version control
+\begin{enumerate} 
+    \item Git
+    \item GitHub
+    \item GitLab
+    \item Bitbucket 
+\end{enumerate}
+  
+Data governance or data lineage
+\begin{enumerate} 
+    \item ApacheAtlas
+    \item ODPI-EGERIA
+    \item Kylo 
+\end{enumerate}
+
+\section{Open-source tools}
+
+\textbf{ Development Enviroments}
+\begin{enumerate} 
+    \item JupyterNotebooks
+    \item JupyeterLab (next version) (modular and ability of open different files)   
+    \item R Studio (statistics and DataScience)
+    \item Apache Zeppelin
+    \item Syder
+\end{enumerate}
+
+
+\textbf{ Execution Envarionment}
+
+\begin{enumerate} 
+    \item Apache Spark (linear scalability) 
+    \item Apache Flink (Stream processing image, real time data streams)
+    \item Ray, focos in real scale deep learning model training
+\end{enumerate}
+
+\textbf{ Fully Integrationd Visual Tools}
+\begin{enumerate} 
+    \item KNIME 
+    \item IBM Developer
+\end{enumerate}
+ 
+
+
+
+\section{Comercial tools for data science}
+
+\begin{enumerate} 
+    \item Oracle Database
+    \item SQL server
+    \item IBM DB2 
+\end{enumerate}
+
+Commersioal supportes delivered by software vendors, influential parthers and support networks
+
+\textbf{ ETL}
+\begin{enumerate} 
+    \item Informatica
+    \item InfoSphereStage
+    \item Talend
+    \item WatsonStudioDesktop 
+\end{enumerate}
+
+\textbf{ DataVisulaization}
+\begin{enumerate} 
+    \item Tableau
+    \item PowerBI
+    \item IBM Congnos Analytics 
+\end{enumerate}
+
+\textbf{ Model Building}
+
+\begin{enumerate} 
+    \item SPSS
+    \item SAS
+    \item IBM watson studio
+\end{enumerate}
+
+\textbf{ Model monitoring}
+
+Open source is the best, like Git
+
+
+WatsonStudioDesktop fully integrated tool, covering all task discosed previously. 
+
+\section{Cloud Base Tools}
+
+For fully integrates visual tools and platforms. Large-scale execution of data science workflows happens in compute clusters:
+\begin{enumerate} 
+    \item Composed of multiple server machines
+    \item WatsonStudio, machineLearning and al AI task
+    \item Azure
+    \item H2O.ai
+\end{enumerate}
+ 
+\textbf{ Data management}
+\begin{enumerate} 
+    \item AWS
+    \item Cloudant
+    \item CouchDB 
+    \item IMB DB2
+\end{enumerate}
+
+
+
+
+\textbf{ Data visualization}
+
+Examples of data visualization. 3D bar graph, Hierarchical edge bundling, classic bar chart, 2D scatter plot, tree map, pie chart, word Cloud.
+
+
+
+
+
+
+
+\newpage
+
+\section{Open Data Sets and Sources}
+
+\textbf{Government Data}
+
+% \begin{enumerate} 
+%     \item \href{https://www.data.gov/}{}
+%     \item \href{https://www.census.gov/data.html}{}
+%     \item \href{https://data.gov.uk/}{}
+%     \item \href{https://www.opendatanetwork.com/}{}
+%     \item \href{https://data.un.org/}{}
+% \end{enumerate}
+ 
+
+
+\begin{enumerate} 
+    \item https://www.data.gov/
+    \item https://www.census.gov/data.html
+    \item https://data.gov.uk/
+    \item https://www.opendatanetwork.com/
+    \item https://data.un.org/
+\end{enumerate}
+ 
+\textbf{Financial Data Sources:}
+
+\begin{enumerate} 
+    \item https://data.worldbank.org/
+    \item https://www.globalfinancialdata.com/
+    \item https://comtrade.un.org/
+    \item https://www.nber.org/
+    \item https://fred.stlouisfed.org/ 
+\end{enumerate}
+ 
+\textbf{Crime Data:}
+\begin{enumerate} 
+    \item https://www.fbi.gov/services/cjis/ucr
+    \item https://www.icpsr.umich.edu/icpsrweb/content/NACJD/index.html
+    \item https://www.drugabuse.gov/related-topics/trends-statistics
+    \item https://www.unodc.org/unodc/en/data-and-analysis/
+\end{enumerate}
+
+\textbf{Health Data: }
+
+\begin{enumerate} 
+    \item https://www.who.int/gho/database/en/
+    \item https://www.fda.gov/Food/default.htm
+    \item https://seer.cancer.gov/faststats/selections.php?series=cancer
+    \item https://www.opensciencedatacloud.org/
+    \item https://pds.nasa.gov/
+    \item https://earthdata.nasa.gov/
+    \item https://www.sgim.org/communities/research/dataset-compendium/public-datasets-topic-grid 
+\end{enumerate}
+ 
+\textbf{Academic and Business Data:}
+\begin{enumerate} 
+    \item  https://scholar.google.com/
+    \item  https://nces.ed.gov/
+    \item  https://www.glassdoor.com/research/
+    \item  https://www.yelp.com/dataset 
+\end{enumerate}
+ 
+\textbf{Other General Data:}
+
+\begin{enumerate} 
+    \item https://www.kaggle.com/datasets
+    \item https://www.reddit.com/r/datasets/
+\end{enumerate}
+ 
+
+
+
+
+
+
+
+
+\end{document}
