@@ -1,2 +1,0 @@
-Proyectos[[:space:]]pequeños/Coppel/test_data/test_data.csv filter=lfs diff=lfs merge=lfs -text
-Proyectos[[:space:]]pequeños/Coppel/train_data/train_data.csv filter=lfs diff=lfs merge=lfs -text
